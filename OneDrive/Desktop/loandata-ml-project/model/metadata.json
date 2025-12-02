@@ -1,0 +1,72 @@
+{
+  "numeric_cols": [
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Property_Area"
+  ],
+  "categories_sample": {
+    "Gender": [
+      "Male",
+      "Female"
+    ],
+    "Married": [
+      "No",
+      "Yes"
+    ],
+    "Dependents": [
+      "0",
+      "1",
+      "2",
+      "3+"
+    ],
+    "Education": [
+      "Graduate",
+      "Not Graduate"
+    ],
+    "Self_Employed": [
+      "No",
+      "Yes"
+    ],
+    "Property_Area": [
+      "Urban",
+      "Rural",
+      "Semiurban"
+    ]
+  },
+  "feature_names": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History",
+    "Property_Area"
+  ],
+  "dtypes": {
+    "Gender": "object",
+    "Married": "object",
+    "Dependents": "object",
+    "Education": "object",
+    "Self_Employed": "object",
+    "ApplicantIncome": "int64",
+    "CoapplicantIncome": "float64",
+    "LoanAmount": "float64",
+    "Loan_Amount_Term": "float64",
+    "Credit_History": "float64",
+    "Property_Area": "object"
+  }
+}
